@@ -1,0 +1,15 @@
+{
+  "name": "captcha-before-creator-ingestion",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22.18" },
+  "scripts": {
+    "start": "node src/creator_signup.ts",
+    "test": "node --test test/signup_gate.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": { "zod": "^3.24.2" },
+  "devDependencies": { "@types/node": "^22.20.0", "typescript": "~5.7.3" },
+  "license": "MIT"
+}
